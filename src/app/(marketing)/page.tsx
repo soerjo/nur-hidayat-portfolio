@@ -928,7 +928,7 @@ export default function PortfolioPage() {
             </h2>
           </div>
 
-          <div className="w-full space-y-2 text-sm text-muted-foreground leading-relaxed">
+          <div className="w-full space-y-2 text-md text-muted-foreground leading-relaxed">
             <span>
               Hey, I&apos;m <span className="font-bold text-lg">Nur Hidayat</span>
             </span>
