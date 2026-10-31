@@ -7,3 +7,4 @@ export { InputWithUnit } from './input-with-unit';
 export { StatCard } from './stat-card';
 export { BalanceCard } from './balance-card';
 export { SegmentedTabs } from './segmented-tabs';
+export { TechIcon } from './tech-icon';

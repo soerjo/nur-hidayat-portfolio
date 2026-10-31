@@ -5,8 +5,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-    --font-heading: var(--font-sans);
-    --font-sans: var(--font-sans);
+    --font-heading: var(--font-geist-mono), ui-monospace, monospace;
+    --font-sans: var(--font-geist-mono), ui-monospace, monospace;
+    --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+    --font-base: var(--font-geist-mono), ui-monospace, monospace;
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -156,8 +158,10 @@
     }
   body {
     @apply bg-background text-foreground;
-    }
+    font-family: var(--font-geist-mono), ui-monospace, monospace;
+  }
   html {
-    @apply font-sans;
-    }
+    @apply font-mono;
+    font-family: var(--font-geist-mono), ui-monospace, monospace;
+  }
 }
